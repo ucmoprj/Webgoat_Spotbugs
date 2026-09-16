@@ -31,6 +31,12 @@ Generate the raw XML report (`target/spotbugsXml.xml`):
 mvn com.github.spotbugs:spotbugs-maven-plugin:4.10.3.0:spotbugs
 ```
 
+Generate a browsable HTML report (`target/site/spotbugs.html`):
+
+```Shell
+.\mvnw.cmd site
+```
+
 Fail the build if bugs are found (useful to show a "gate" in CI):
 
 ```Shell
